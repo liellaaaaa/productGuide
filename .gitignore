@@ -1,0 +1,21 @@
+# 向量库与日志（概要设计 / 详细设计约定）
+chroma_db/
+logs/
+*.jsonl
+
+# 本地密钥与配置（勿提交）
+.env
+config.local.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+
+# 构建（含误装在 src/ 下的 egg-info）
+**/*.egg-info/
+dist/
+build/
